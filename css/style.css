@@ -84,6 +84,7 @@ header {
 /* Home Image Slideshow */
 .slider-container {
   position: relative;
+  margin: 2rem auto;
 }
 .slides {
   display: none;
