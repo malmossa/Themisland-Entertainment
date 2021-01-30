@@ -39,14 +39,49 @@
   </nav>
 
 
-
   <div class="container">
 
+    <!-- Home Image Slideshow -->
+    <div class="slider-container">
 
-    <main>
-      <!-- Image Gallery -->
+      <!-- Full width images -->
+      <div class="slides">
+        <img src="./images/4.jpg" alt="Image slide 1">
+      </div>
+      <div class="slides">
+        <img src="./images/5.jpg" alt="Image slide 2">
+      </div>
+      <div class="slides">
+        <img src="./images/6.jpg" alt="Image slide 3">
+      </div>
+      <div class="slides">
+        <img src="./images/8.jpg" alt="Image slide 1">
+      </div>
 
-    </main>
+      <!-- Next & Previous button -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Thumbnail Images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="./images/4_thumbnail.jpg" alt="Image slide 1" onclick="currentSlide(1)">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./images/5_thumbnail.jpg" alt="Image slide 1" onclick="currentSlide(2)">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./images/6_thumbnail.jpg" alt="Image slide 1" onclick="currentSlide(3)">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./images/8_thumbnail.jpg" alt="Image slide 1" onclick="currentSlide(4)">
+        </div>
+      </div>
+
+    </div>
+
+
+
 
   </div>
 
