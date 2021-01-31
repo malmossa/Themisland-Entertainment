@@ -163,6 +163,7 @@ header {
 .zelle-number {
   text-align: center;
 }
-.social-name {
-  text-align: center;
+
+.fab {
+  color: var(--primary-color);
 }
