@@ -15,12 +15,20 @@
 @font-face {
   src: url(../fonts/Futura\ Medium.otf);
   font-family: FuturaMedium;
+  src: url(../fonts/Carnevalee\ Freakshow.ttf);
+  font-family: Carnevalee Freakshow;
 }
 body {
   background: var(--secondary-color);
 }
 img {
   width: 100%;
+}
+h1 {
+  color: var(--primary-color);
+  font-family: Carnevalee Freakshow;
+  text-align: center;
+  font-size: 5rem;
 }
 p {
   margin: 0.5rem;
@@ -132,4 +140,18 @@ header {
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+/* Payment Section */
+.grid-container {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grid-item {
+  max-width: 300px;
+}
+.zelle-number {
+  text-align: center;
 }

@@ -5,6 +5,13 @@
   --menu-speed: 0.75s;
 }
 
+.h1 {
+  font-size: 3rem;
+}
+.grid-container {
+  flex-direction: column;
+}
+
 /* Menu Overlay */
 
 .menu-wrap {
