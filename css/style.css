@@ -44,6 +44,9 @@ p {
 .cursor {
   cursor: pointer;
 }
+.magin-top {
+  margin-top: 3rem;
+}
 
 /* Header */
 header {
@@ -128,6 +131,10 @@ header {
   clear: both;
 }
 
+.row {
+  margin-top: 1rem;
+}
+
 .column {
   float: left;
   width: 25%;
@@ -143,15 +150,19 @@ header {
 }
 
 /* Payment Section */
-.grid-container {
+.flex-container {
   margin-top: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.grid-item {
+.flex-item {
   max-width: 300px;
+  text-align: center;
 }
 .zelle-number {
+  text-align: center;
+}
+.social-name {
   text-align: center;
 }
