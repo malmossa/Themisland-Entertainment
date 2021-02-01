@@ -51,6 +51,7 @@ p {
   margin: auto;
   padding: 0 1.5rem;
   overflow: hidden;
+  min-height: 100vh;
 }
 
 .cursor {
@@ -198,4 +199,20 @@ footer {
 }
 .footer {
   text-align: center;
+}
+
+/* Photo Gallery Section */
+.gallery-items {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 0.5rem;
+}
+.img-gallery {
+  border-radius: 10px;
 }
