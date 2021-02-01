@@ -13,10 +13,16 @@
   padding: 0;
 }
 @font-face {
-  src: url(../fonts/Futura\ Medium.otf);
-  font-family: FuturaMedium;
   src: url(../fonts/Carnevalee\ Freakshow.ttf);
   font-family: Carnevalee Freakshow;
+}
+@font-face {
+  src: url(../fonts/Futura\ Medium.otf);
+  font-family: FuturaMedium;
+}
+@font-face {
+  src: url(../fonts/open-sans.regular.ttf);
+  font-family: OpenSans;
 }
 body {
   background: var(--secondary-color);
@@ -49,13 +55,11 @@ p {
 }
 
 /* Header */
-header,
-footer {
-  background-color: #1b1464;
+header {
+  background-color: var(--primary-color);
   color: #fff;
   padding: 2rem;
 }
-
 .logo {
   display: block;
   margin: 0 auto;
@@ -166,13 +170,16 @@ footer {
   text-align: center;
 }
 
-/* Follow us Section */
-
 .fab {
   color: var(--primary-color);
 }
 
-/* Footer */
+/* Footer Section */
+footer {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 2rem;
+}
 .footer {
   text-align: center;
 }
