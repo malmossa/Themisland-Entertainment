@@ -32,6 +32,9 @@ body {
 img {
   width: 100%;
 }
+ul {
+  list-style: none;
+}
 h1 {
   color: var(--primary-color);
   font-family: Carnevalee Freakshow;
@@ -173,6 +176,18 @@ header {
 
 .fab {
   color: var(--primary-color);
+}
+
+/* Contact Section */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-item {
+  font-size: 1.5rem;
+}
+.list-items {
+  margin: 0.5rem 0;
 }
 
 /* Footer Section */

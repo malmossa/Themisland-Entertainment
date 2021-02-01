@@ -11,6 +11,9 @@
 .flex-container {
   flex-direction: column;
 }
+.contact-container {
+  flex-direction: column;
+}
 
 /* Menu Overlay */
 
