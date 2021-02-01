@@ -15,6 +15,10 @@
   flex-direction: column;
 }
 
+.gallery-container .gallery-items {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 /* Menu Overlay */
 
 .menu-wrap {
