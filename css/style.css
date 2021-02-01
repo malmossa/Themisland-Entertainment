@@ -44,16 +44,18 @@ p {
 .cursor {
   cursor: pointer;
 }
-.magin-top {
+.margin-top {
   margin-top: 3rem;
 }
 
 /* Header */
-header {
+header,
+footer {
   background-color: #1b1464;
   color: #fff;
   padding: 2rem;
 }
+
 .logo {
   display: block;
   margin: 0 auto;
@@ -164,6 +166,13 @@ header {
   text-align: center;
 }
 
+/* Follow us Section */
+
 .fab {
   color: var(--primary-color);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
 }
