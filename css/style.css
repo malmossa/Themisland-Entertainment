@@ -200,10 +200,12 @@ header {
 
 /* Footer Section */
 footer {
-  margin-top: 8rem;
   background-color: var(--primary-color);
   color: #fff;
   padding: 1rem;
+}
+.footer-container {
+  margin-top: 15.5rem;
 }
 .footer {
   text-align: center;
