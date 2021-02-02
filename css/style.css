@@ -44,12 +44,24 @@ h1 {
   text-align: center;
   font-size: 5rem;
 }
+h4 {
+  font-family: FuturaMedium;
+}
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
 p {
   margin: 0.75rem 0;
   font-size: 1.3rem;
 }
 strong {
   font-family: FuturaMedium;
+}
+.margin-top {
+  margin-top: 1rem;
+}
+.show-non {
+  visibility: hidden;
 }
 
 .container {
@@ -97,7 +109,7 @@ header {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-family: FuturaMedium;
   color: #929292;
   margin: 0 6.5rem;
@@ -184,7 +196,9 @@ header {
   text-align: center;
   margin: 1rem;
 }
-
+.payment-scan-icon {
+  border-radius: 10px;
+}
 .fab {
   color: var(--primary-color);
   margin-bottom: 1rem;
@@ -207,6 +221,7 @@ header {
 
 /* Footer Section */
 footer {
+  margin-top: 1rem;
   background-color: var(--primary-color);
   color: #fff;
   padding: 1rem;
