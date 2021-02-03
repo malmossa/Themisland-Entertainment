@@ -135,6 +135,9 @@ header {
 .slides {
   display: none;
 }
+.slides img {
+  object-fit: cover;
+}
 
 .prev,
 .next {
