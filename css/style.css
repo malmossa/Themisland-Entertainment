@@ -130,12 +130,14 @@ header {
 .slider-container {
   position: relative;
   margin: 2rem auto;
+  max-width: 800px;
 }
 
 .slides {
   display: none;
 }
 .slides img {
+  max-height: 600px;
   object-fit: cover;
 }
 
