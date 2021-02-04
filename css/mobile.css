@@ -22,9 +22,6 @@
 .gallery-container .gallery-items {
   grid-template-columns: repeat(2, 1fr);
 }
-.slides img {
-  height: 15rem;
-}
 
 /* Menu Overlay */
 
