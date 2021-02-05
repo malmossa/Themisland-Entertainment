@@ -135,10 +135,10 @@ header {
 .slides {
   display: none;
 }
-/* .slides img {
+.slides img {
   max-height: 600px;
   object-fit: cover;
-} */
+}
 
 .prev,
 .next {
