@@ -136,7 +136,7 @@ header {
   display: none;
 }
 .slides img {
-  max-height: 600px;
+  max-height: 550px;
   object-fit: cover;
 }
 
@@ -172,6 +172,8 @@ header {
 
 .row {
   margin-top: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .column {
