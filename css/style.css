@@ -57,6 +57,9 @@ p {
 strong {
   font-family: FuturaMedium;
 }
+a {
+  text-decoration: none;
+}
 .margin-top {
   margin-top: 1rem;
 }
@@ -123,6 +126,14 @@ header {
 }
 .toggler {
   opacity: 0;
+}
+
+/* Top text */
+.top-text {
+  color: var(--primary-color);
+  font-family: Carnevalee Freakshow;
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 /* Home Image Slideshow */
