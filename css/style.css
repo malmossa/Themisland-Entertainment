@@ -82,7 +82,8 @@ a {
 }
 
 /* Header */
-header {
+.header {
+  display: block;
   background-color: var(--primary-color);
   color: #fff;
   padding: 2rem;

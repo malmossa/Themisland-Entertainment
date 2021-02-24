@@ -4,12 +4,13 @@
   --overlay-color: rgba(70, 70, 180, 0.95);
   --menu-speed: 0.75s;
 }
+
 .a-link {
   color: #fff;
   font-size: 1rem;
   padding: 1.5rem;
 }
-.h1 {
+.container h1 {
   font-size: 3rem;
 }
 .flex-container {
@@ -23,6 +24,13 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
+.header .logo {
+  width: 70%;
+}
+
+.container .top-text {
+  font-size: 2rem;
+}
 /* Menu Overlay */
 
 .menu-wrap {
